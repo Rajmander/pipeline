@@ -2,14 +2,16 @@ name: demo pipeline
 
 on:
   push:
-    branches: 
+    branches:
       - main
 
 jobs:
-  printhello:
+  printing:
     runs-on: ubuntu-latest
+  steps:
+    - name print hello
+      run: echo "i am pipeline demo" 
 
-    steps:
-      - name: Print wahi
-        run: echo "hello rajmander"
-
+  steps:
+    - name print hello again
+      run: echo "i am pipeline demo again"     
