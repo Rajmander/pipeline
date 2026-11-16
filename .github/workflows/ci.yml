@@ -10,8 +10,4 @@ jobs:
     runs-on: ubuntu-latest
   steps:
     - name print hello
-      run: echo "i am pipeline demo" 
-
-  steps:
-    - name print hello again
-      run: echo "i am pipeline demo again"     
+      run: echo "i am pipeline demo"    
