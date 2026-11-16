@@ -12,3 +12,7 @@ jobs:
     steps:
       - name: print hello
         run: echo "i am pipeline demo"
+
+    steps:
+      - name: print hello1
+        run: echo "i am pipeline demo1"
